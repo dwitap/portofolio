@@ -1,0 +1,66 @@
+body {
+    /* color: lightslategrey; */
+    color: black;
+  }
+
+  #content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .kotak1 {
+    color: peru;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25%;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+
+  .kotak2 {
+    grid-column: 3/5;
+    grid-row: 1/7;
+}
+
+.kotak3 {
+    padding: 27px;
+    background-color: #bdaa9a;
+    grid-column: 5/7;
+    grid-row: 1/4;
+}
+
+.kotak4 {
+    padding: 27px;
+    background-color: #bdaa9a;
+    grid-column: 1/3;
+    grid-row: 4/7;
+}
+
+  .kotak5 {
+      margin-top: 20%;
+    color: peru;
+    text-align: center;
+    grid-column: 5/7;
+    grid-row: 4/7;
+}
+
+a {
+    color: peru;
+}
+
+a:hover {
+    color: black;
+}
+
+.data {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.name {
+    font-size: 24px;
+}
